@@ -1,0 +1,19 @@
+{
+  "name": "fastify-api-server",
+  "version": "1.0.0",
+  "description": "Fastify Web Service API on Render",
+  "main": "apilekhanhnam.js",
+  "scripts": {
+    "start": "node apilekhanhnam.js"
+  },
+  "dependencies": {
+    "@fastify/websocket": "^8.2.0",
+    "better-sqlite3": "^9.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fastify": "^4.26.2",
+    "ws": "^8.16.0"
+  },
+  "author": "Le Khanh Huy",
+  "license": "ISC"
+}
